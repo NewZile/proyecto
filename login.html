@@ -22,6 +22,15 @@
       border-bottom-right-radius: .3rem;
     }
 }
+
+.wa:hover{
+  text-decoration-line: underline;
+  text-decoration-color: rgb(3, 69, 252);
+}
+
+.wa{
+  text-decoration: none;
+}
     </style>
 </head>
 <body>
@@ -31,15 +40,6 @@
             <div class="col-xl-10">
               <div class="card rounded-3 text-black">
                 <div class="row g-0">
-
-                  <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
-                    <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                      <h4 class="mb-4">VALORANT</h4>
-                      <p class="small mb-0">Valorant es un hero shooter en primera persona multijugador gratuito desarrollado y publicado por Riot Games. 
-                        El juego se anunció por primera vez con el nombre en clave Project A en octubre de 2019. 
-                        Fue lanzado para Microsoft Windows el 2 de junio de 2020 después de su beta cerrada lanzada el 7 de abril de 2020.</p>
-                    </div>
-                  </div>
                   <div class="col-lg-6">
                     <div class="card-body p-md-5 mx-md-4">
       
@@ -48,18 +48,13 @@
                           style="width: 200px; height: 200px; margin-bottom:5%" alt="logo">
                         <h4  class="mt-1  pb-1">Bienvenido a ValorantStats</h4>
                       </div>
-                      <form method="post"  action="login/registrar.php">
-                        <p style="text-align: center;">Registrarse</p>
+                      <form>
+                        <p style="text-align: center;">Porfavor introduzca sus credenciales</p>
                         <label class="form-label" for="form2Example11">Usuario</label>
                         <div class="form-outline mb-4">
                           <input type="email" id="form2Example11" class="form-control"
                             placeholder="Introduzaca tu nombre de usuario" />
                         </div>
-
-                        <div class="form-outline mb-4">
-                            <label class="form-label" for="form2Example22">Email</label>
-                            <input type="email" id="form2Example22" placeholder="Introduzaca tu correo" class="form-control" />
-                          </div>
       
                         <div class="form-outline mb-4">
                           <label class="form-label" for="form2Example22">Contraseña</label>
@@ -67,10 +62,21 @@
                         </div>
             
                         <div class="d-flex align-items-center justify-content-center pb-4">
-                          <a class="btn btn-outline-danger" href="index.html">Crear una cuenta</a>
+                        <a class="wa" href="crear_cuenta.html">
+                          <p class="mb-0 me-2">¿No tienes una cuenta?</p>
+                        </a>
+                          <a class="btn btn-outline-danger" href="pagina_principal.html">Iniciar Sesion</a>
                         </div>
                       </form>
       
+                    </div>
+                  </div>
+                  <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                    <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                      <h4 class="mb-4">VALORANT</h4>
+                      <p class="small mb-0">Valorant es un hero shooter en primera persona multijugador gratuito desarrollado y publicado por Riot Games. 
+                        El juego se anunció por primera vez con el nombre en clave Project A en octubre de 2019. 
+                        Fue lanzado para Microsoft Windows el 2 de junio de 2020 después de su beta cerrada lanzada el 7 de abril de 2020.</p>
                     </div>
                   </div>
                 </div>
