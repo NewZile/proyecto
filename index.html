@@ -6,40 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Pagina Principal</title>
+    <link rel="stylesheet" type="text/css" href="css/all.css"></link>
     <style>
         body{
             background-image: url(img/fondo/fondo_pagina_principal.png)
         }
+
+.wa:hover{
+  text-decoration-line: underline;
+  text-decoration-color: rgb(3, 69, 252);
+}
+
+.wa{
+  text-decoration: none;
+}
+
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">  
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">  
       <div class="collapse navbar-collapse" id="navbarButtonsExample">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Dashboard</a>
+            <div class="wa">
+            <a  class="nav-link" style="color: white; margin-top: 3px; margin-right: -1px; margin-left: 15px; font-size: 130%;" href="index.html">ValorantStats</a>
+          </li>
+
+          <nav class="navbar navbar-light bg-dark">
+            <div class="container-fluid">
+              <form class="d-flex input-group w-auto">
+                <input
+                  type="search"
+                  class="form-control rounded"
+                  placeholder="Search"
+                  aria-label="Search"
+                  aria-describedby="search-addon"/>
+              </form>
+            </div>
+          </nav>
+
+          <div class="wa">
+          <li class="nav-item">
+            <a  class="nav-link" style="color: rgb(61, 135, 231); margin-top: 4px;" href="agenda.html">Agenda</a>            
           </li>
         </ul>
+  
+      </div>
 
-        <nav class="navbar navbar-light bg-light">
-          <div class="container-fluid">
-            <form class="d-flex input-group w-auto">
-              <input
-                type="search"
-                class="form-control rounded"
-                placeholder="Search"
-                aria-label="Search"
-                aria-describedby="search-addon"/>
-            </form>
-          </div>
-        </nav>
+
+
 
         <div class="d-flex align-items-center">
             <a class="btn btn-primary me-3" href="login.html">
             Inicio de Sesion
-        </a>
-          <a class="btn btn-primary me-1" href="crear_cuenta.html">
-            Registrarse
         </a>
         </div>
       </div>
@@ -62,7 +81,6 @@
 <h1>gfgf</h1>
 <h1>gfgf</h1>
 <h1>gfgf</h1>
-
 
 <footer class="bg-light text-center text-lg-start">
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
