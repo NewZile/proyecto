@@ -1,0 +1,101 @@
+[
+    {
+        "categoria": "Valorant",
+        "pregunta": "¿Cuanto cuesta la spectre?",
+        "respuesta": "1600",
+        "incorrecta1": "1500",
+        "incorrecta2": "1700",
+        "incorrecta3": "1200",
+        "imagen": "https://valorant-update.com/wp-content/uploads/spectre-Cover-.jpg"
+    },
+    {
+        "categoria": "Valorant",
+        "pregunta": "¿Que mapa salió hace poco?",
+        "respuesta": "Lotus",
+        "incorrecta1": "Pearl",
+        "incorrecta2": "Bind",
+        "incorrecta3": "Icebox",
+        "imagen": "https://www.fullesports.com/wp-content/uploads/2023/01/lotus-screen-compressed.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Valorant",
+        "pregunta": "¿Que rol de agente es de ataque?",
+        "respuesta": "Duelista",
+        "incorrecta1": "Centinela",
+        "incorrecta2": "Iniciador",
+        "incorrecta3": "Controlador",
+        "imagen": "https://esports.as.com/2021/04/10/valorant/Agentes-VALORANT_1454264572_655190_1440x600.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Valorant",
+        "pregunta": "¿Cual es el mapa mas odiado por la comunidad?",
+        "respuesta": "Fracture",
+        "incorrecta1": "Pearl",
+        "incorrecta2": "Dust II",
+        "incorrecta3": "Haven",
+        "imagen": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2021/9/9/viex0w2adfynzex9a9xr/fracture-mapa-valorant-acto-ii-reflexion",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Valorant",
+        "pregunta": "¿Cual fue el primer agente que salió junto al juego?",
+        "respuesta": "Brimstone",
+        "incorrecta1": "Reyna",
+        "incorrecta2": "Sage",
+        "incorrecta3": "Raze",
+        "imagen": "https://www.esportmaniacos.com/wp-content/uploads/2022/03/brimstone-valorant-960x540-1.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Valorant",
+        "pregunta": "¿Cual pack de skins fue el primero en salir?",
+        "respuesta": "Enderflame",
+        "incorrecta1": "Prime",
+        "incorrecta2": "Oni",
+        "incorrecta3": "Prism",
+        "imagen": "https://esports.as.com/2020/07/13/firmas/Skins-Elderflame_1372972715_419266_1440x600.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Valorant",
+        "pregunta": "¿Donde se ubica Ascent?",
+        "respuesta": "Venecia",
+        "incorrecta1": "Londres",
+        "incorrecta2": "Bogotá",
+        "incorrecta3": "Lima",
+        "imagen": "https://media.steelseriescdn.com/blog/posts/valorant-map-guide-ascent/0118212e454c4c61a739652037b4e7c7.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Valorant",
+        "pregunta": "¿Cuanto dinero te dan en ronda de pistolas?",
+        "respuesta": "800",
+        "incorrecta1": "900",
+        "incorrecta2": "1000",
+        "incorrecta3": "500",
+        "imagen": "https://media.steelseriescdn.com/blog/posts/valorant-map-guide-ascent/0118212e454c4c61a739652037b4e7c7.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Valorant",
+        "pregunta": "¿Quien dice torreta desplegada?",
+        "respuesta": "Killjoy",
+        "incorrecta1": "Viper",
+        "incorrecta2": "Harbor",
+        "incorrecta3": "Reyna",
+        "imagen": "https://static1-es.millenium.gg/articles/6/50/19/6/@/275294-killjoy-turret-broll-edit-article_m-1.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Valorant",
+        "pregunta": "¿Quien dice un mundo dividido?",
+        "respuesta": "Astra",
+        "incorrecta1": "Viper",
+        "incorrecta2": "Killjoy",
+        "incorrecta3": "Reyna",
+        "imagen": "https://valorantinfo.com/images/es/tarjeta-un-mundo-dividido_valorant_art_36433.webp",
+        "objectFit": "cover"
+    }
+]
