@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="website icon" type="png" href="../img/fondo/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulos</title>
+    <style>
+        body {
+            background-image: url(../img/fondo/fondo_pagina_principal.png);
+        }
+
+        .card {
+        display: inline-block;
+        background-color: #30335c;
+        margin: 10px;
+        padding: 10px;
+        margin: 10px;
+        padding: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 5px solid #fff;
+        border-color: red;
+    }
+
+
+        .map-icon {
+        max-width: 150%;
+        max-height: 200px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        }
+
+        .map-details {
+        text-align: center;    
+        }
+
+        .map-name {
+            color: #fff;
+        }
+    </style>
+
+    <script>
+        $.ajax({
+            url: 'https://valorant-api.com/v1/playertitles',
+            type: 'GET',
+            success: function (data) {
+                const maps = data.data;
+                for (const key in maps) {
+                    const map = maps[key];
+                    const card = $('<div class="card">');
+                    const img = $('<img>').attr('src', 'img/displayicon.png').addClass('map-icon');
+                    const mapDetails = $('<div class="map-details">');
+                    const mapName = $(`<p class="map-name">${map.displayName}</p>`);
+                    mapDetails.append(mapName);
+                    card.append(img, mapDetails);
+                    $('#maps').append(card);
+                }
+            },
+            error: function (error) {
+                console.error(error);
+            }
+        });
+
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- icono o nombre -->
+
+            <a class="navbar-brand" href="../pagina_administracion.php">
+                <i class="bi bi-flower1"></i>
+                <span class="text-warning">ValorantStats</span>
+            </a>
+
+            <!-- boton del menu -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- elementos del menu colapsable -->
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="stats.html">Inicio</a>
+                    </li>
+                </ul>
+
+                <hr class="d-md-none text-white-50">
+                <!--boton Informacion -->
+                <form class="d-flex">
+                    <a class="btn btn-outline-warning d-none d-md-inline-block" href="logout.php">
+                        Cerrar Sesion
+                    </a>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+
+    <ul id="maps"></ul>
+
+</body>
+
+</html>
